@@ -1,6 +1,6 @@
 {
   "name": "ethmon",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": "Oleg Semyonov (osnwt@github.com)",
   "private": true,
   "scripts": {

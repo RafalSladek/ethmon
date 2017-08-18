@@ -5,16 +5,18 @@ Simple web application for Claymore's Dual Ethereum+Decred GPU Miner monitoring.
 
 More info: https://bitcointalk.org/index.php?topic=1433925
 
-Origin: https://github.com/osnwt/ethmon
+## What you need to install before?
+* Install [nodejs](http://nodejs.org)
+* Install [docker](https://docs.docker.com/engine/installation/#supported-platforms)
 
-## Installation
-* Install nodejs and npm (http://nodejs.org) for your system (tested on MacOSX, Ubuntu and Windows)
-* Clone this repository or download and extract files
-* Change to the top directory of the package
-* Install dependencies (npm install)
-* Copy config.json.sample to config.json and edit where necessary (see CONFIG.md for detailed comments and optional parameters)
-* Start the application (npm start)
-* Open web browser to localhost:3000 (or your IP:3000)
+## How to start?
+* ``` cd src ```
+* ``` cp config.json.sample config.json ```
+* edit config.json (see [CONFIG.md](CONFIG.md) for detailed comments and optional parameters)
+* ```cd ..```
+* ```./buildImage.sh```
+* ```./runDocker.sh```
+* Open web browser to [localhost:3000](http://localhost:3000) (or your IP:3000)
 * Enjoy
 
 ## Known issues
@@ -29,5 +31,13 @@ Origin: https://github.com/osnwt/ethmon
 
 ## Donations
 If you find this utility useful, here are donation addresses:
+
+me
+* BTC: 32y7qsa3gX5tERjsLqYTZrLoPvLzhM2prx
+* ETH: 0xd2D20216D26d9d7c9587B169f82aF12BA169bB8d
+
+osnwt
 * BTC: 1H811tiLPcMwjGoWVDLQwTWpWaq5RpYSCZ
 * ETH: 0xB9b7540a4B2077Ca9Cde23021e413Ec81c5b1Cae
+
+Origin: https://github.com/osnwt/ethmon
