@@ -48,6 +48,9 @@ Please notice that this sample will not work since contains comments not permitt
             "host": "10.0.0.15",
             "port": 3333,
 
+            // Miner can be secured with password.
+            "pass": "miner password set in config.txt"
+            
             // If defined and not empty, report this as a host name instead of IP:port
             "hostname": "private:3333",
 
