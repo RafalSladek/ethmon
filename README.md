@@ -5,19 +5,21 @@ Simple web application for Claymore's Dual Ethereum+Decred GPU Miner monitoring.
 
 More info: https://bitcointalk.org/index.php?topic=1433925
 
+![Screnshot](screenshot_ethmon.png)
+
 ## What you need to install before?
 * Install [nodejs](http://nodejs.org)
 * Install [docker](https://docs.docker.com/engine/installation/#supported-platforms)
 
 ## How to start?
-* ``` cd src ```
-* ``` cp config.json.sample config.json ```
-* edit config.json (see [CONFIG.md](CONFIG.md) for detailed comments and optional parameters)
-* ```cd ..```
-* ```./buildImage.sh```
-* ```./runDocker.sh```
-* Open web browser to [localhost:3000](http://localhost:3000) (or your IP:3000)
-* Enjoy
+1. ``` cd src ```
+1. ``` cp config.json.sample config.json ```
+1. edit config.json (see [CONFIG.md](CONFIG.md) for detailed comments and optional parameters)
+1. ```cd ..```
+1. ```./buildImage.sh```
+1. ```./runDocker.sh```
+1. Open web browser to [localhost:3000](http://localhost:3000) (or your IP:3000)
+1. Enjoy
 
 ## Known issues
 * On some Ubuntu releases after 'apt-get install npm' the node interpreter is called nodejs due to conflict with some other package. In that case you may need to replace "node ./bin/www" by "nodejs ./bin/www" in package.json file or better create a link from /usr/local/node to the nodejs binary 
