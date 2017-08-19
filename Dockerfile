@@ -1,4 +1,5 @@
 FROM node:latest
+MAINTAINER Rafal Sladek "rafal.sladek@gmail.com"
 
 # Set the working directory to /app
 WORKDIR /app
